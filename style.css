@@ -1,0 +1,103 @@
+/*div {
+    width:500px;
+    height:500px;
+    background: pink;
+    padding:50px;
+    margin:50px;
+    padding-left:100 px;
+    border: 10 px dotted yellow;
+    border-radius: 50 px;
+
+}*/
+
+*{
+    box-sizing:border-box;
+}
+
+body {
+    margin:0;
+    padding:0;
+}    
+
+
+.header {
+    background: rgb(98, 90, 120);
+    height:100px;
+    width:100vw;
+    font-family: "Racing Sans One", serif;
+    font-size:40px;
+    line-height: 100px;
+    text-align:center;
+}
+
+
+.main {
+    background: rgb(192, 192, 224);
+    width: 100%;
+    height:100%;
+    padding:20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content:center;
+
+}
+
+
+
+.name {
+    font-family: "Racing Sans One", serif;
+    font-size:18px;
+    text-align: center;
+    margin:0;
+    
+
+}
+
+.cave-image{
+    width:100%;
+    height: 100%;
+    display: block;
+    margin: auto;
+    position: relative;
+    object-fit: cover;
+
+}
+
+.cave-image:hover{
+    border: 5px solid rgba(121, 223, 229, 0.564);
+    box-shadow: 0 0 110px #47b900;
+}
+
+/*
+.glowing-border {
+    border: 2px solid #dadada;
+    border-radius: 7px;
+}
+
+.glowing-border:focus { 
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+
+*/
+
+.cave-component {
+    width:400px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.cave-component:hover{
+    background: none;
+    
+}
+
+.description {
+    display:none;
+}
+
+.cave-component:hover .desc{
+    display:block;
+}
